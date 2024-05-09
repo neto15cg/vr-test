@@ -15,6 +15,8 @@ The challenge is to create a mfe using ReactJs with the following technologies:
 
 ## Installation
 
+**It's important to use NODEJS version >= 18**
+
 Install all the packages:
 
 ```bash
