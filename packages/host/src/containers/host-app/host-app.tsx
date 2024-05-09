@@ -8,11 +8,13 @@ const CardsApp = lazy(() => import('Cards/root'));
 
 const HostApp = () => {
   return (
-    <HostAppContainer>
+    <HostAppContainer data-testid="hostapp">
       <Suspense fallback="loading...">
         <HeaderApp />
       </Suspense>
-      <CardsApp />
+      <Suspense fallback="loading...">
+        <CardsApp />
+      </Suspense>
       <Suspense fallback="loading...">
         <FooterApp />
       </Suspense>
