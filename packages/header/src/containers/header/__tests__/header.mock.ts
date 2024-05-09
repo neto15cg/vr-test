@@ -1,0 +1,40 @@
+export const CartMock = [
+  {
+    id: 4,
+    title: 'OPPOF19',
+    description: 'OPPO F19 is officially announced on April 2021.',
+    price: 280,
+    discountPercentage: 17.91,
+    rating: 4.3,
+    stock: 123,
+    brand: 'OPPO',
+    category: 'smartphones',
+    thumbnail: 'https://cdn.dummyjson.com/product-images/4/thumbnail.jpg',
+    images: [
+      'https://cdn.dummyjson.com/product-images/4/1.jpg',
+      'https://cdn.dummyjson.com/product-images/4/2.jpg',
+      'https://cdn.dummyjson.com/product-images/4/3.jpg',
+      'https://cdn.dummyjson.com/product-images/4/4.jpg',
+      'https://cdn.dummyjson.com/product-images/4/thumbnail.jpg',
+    ],
+  },
+  {
+    id: 6,
+    title: 'MacBook Pro',
+    description:
+      'MacBook Pro 2021 with mini-LED display may launch between September, November',
+    price: 1749,
+    discountPercentage: 11.02,
+    rating: 4.57,
+    stock: 83,
+    brand: 'Apple',
+    category: 'laptops',
+    thumbnail: 'https://cdn.dummyjson.com/product-images/6/thumbnail.png',
+    images: [
+      'https://cdn.dummyjson.com/product-images/6/1.png',
+      'https://cdn.dummyjson.com/product-images/6/2.jpg',
+      'https://cdn.dummyjson.com/product-images/6/3.png',
+      'https://cdn.dummyjson.com/product-images/6/4.jpg',
+    ],
+  },
+];
